@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel Admin</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<h1>Painel Admin</h1>
+
+<div class="container">
+  <input id="titulo" placeholder="Título">
+  <textarea id="descricao" placeholder="Descrição"></textarea>
+
+  <textarea id="imagem" placeholder="Cole várias imagens (uma por linha)"></textarea>
+  <input id="video" placeholder="Link YouTube">
+
+  <select id="categoria">
+    <option>NineCast</option>
+    <option>Lourdes360</option>
+    <option>Eventos</option>
+  </select>
+
+  <label><input type="checkbox" id="destaque"> Destaque</label>
+
+  <input id="autor" placeholder="Autor">
+  <input type="date" id="data">
+
+  <button onclick="salvarPost()">Salvar</button>
+</div>
+
+<!-- 🔥 GERENCIAR POSTS -->
+<h2>Gerenciar Posts</h2>
+<div id="lista"></div>
+
+<script type="module" src="admin.js"></script>
+
+</body>
+</html>
