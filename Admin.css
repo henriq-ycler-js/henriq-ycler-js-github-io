@@ -1,0 +1,63 @@
+body {
+  background: #060813;
+  font-family: Arial;
+  color: white;
+  padding: 20px;
+}
+
+/* TÍTULO */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #b388ff;
+}
+
+/* FORM */
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #0b1021;
+  color: white;
+}
+
+/* BOTÃO SALVAR */
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(90deg, #5b86e5, #8a2be2);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* LISTA DE POSTS (IMPORTANTE 🔥) */
+#lista {
+  margin-top: 20px;
+}
+
+/* ITEM DO POST */
+#lista div {
+  background: #0a0d1c;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid rgba(0,150,255,0.2);
+}
+
+/* BOTÃO EXCLUIR */
+#lista button {
+  width: auto;
+  background: #ff3b3b;
+  padding: 6px 10px;
+  font-size: 12px;
+}
